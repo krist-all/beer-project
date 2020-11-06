@@ -1,0 +1,40 @@
+body {
+    font-display: flex;
+    margin: 0%;
+    padding: 0% 15% 0% 15%;
+}
+header {
+    display: flex;
+    min-height: 200px;
+    max-width: 100%;
+    background-color:#B3B379;
+}
+
+main {
+    display: flex;
+    min-height: 1200px;
+    max-width: 100%;
+    background-color: #FFFFE0;
+    padding: 0% 20% 0% 20%;
+    
+}
+
+.description-container {
+    display: flex;
+    max-width: 600px;
+    max-height: 800px;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFC7;
+}
+
+.details-heading{
+    display: flex;
+    max-width: 600px;
+    max-height: 75px;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+}
