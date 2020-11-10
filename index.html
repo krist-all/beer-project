@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/main-page.js" defer></script>
+    <title>Form</title>
 </head>
+
 <body>
     <header>
+        <h1>PUNK API</h1>
+        <form method="GET">
+            <input type="hidden" id="per_page" name="per_page" value="12">
+            <input type="hidden" id="page" name="page" value="1">
+            <select name="search_by"  class="dropbtn" id="search_by">
+                <option value="">Search beer by: </option>
+                <option value="beer_name" >Beer name</option>
+                <option value="hops">Hops</option>                                   
+                <option value="malt">Malt</option>                                   
+                <option value="beer_name">Brewed Before</option>                                   
+                <option value="abv_gt">ABV Greater Than</option>                                   
+            </select>
+            <input type="text" name="search_value" id="search_value" value="">
 
-    </header>
+
+            <input type="submit" value="Search" title="" id="submit">
+                </form>
+        </header>
+
+
     <main>
 
+        
     </main>
-    <footer>
+    <div class="pagenation" id="pagenation">
+        <a href="" id="prevPage" class="">Previous</a>
+        <Span id="prevPagenone" class="prevPagenone">Previous</Span>
 
-    </footer>
+        <span> | </span>
+
+        <a href="" id="nextPage" class="">Next</a>         
+    </div>
+
+    <footer><h2>PUNK API</h2></footer>
 </body>
+
 </html>

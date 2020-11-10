@@ -1,0 +1,188 @@
+main{
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("../img/melt-bar-restaurang-3.jpg");
+  color: #171D1C;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  line-height: 1.5;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  font-size: 22px;
+  margin: 10px;
+}
+main{
+  max-width: 1100px;
+  margin: auto;
+  background-color:  rgba(244, 243, 238);
+
+}
+header{
+  background-color:  #424141;
+  max-width: 1100px;
+  margin: auto;
+  color: #f1f1f1;
+}
+footer{
+  max-width: 1100px;
+  height: 70px;
+  background-color: rgb(71, 69, 73);
+  margin: auto;
+  border-top: solid 10px rgb(255, 255, 255);
+}
+footer h2{
+  font-family: 'Bungee', cursive;
+
+  margin-left: 20px;
+  text-align: left;
+  color: white;
+}
+.beerdiscrebsion{
+  padding: 20px;
+  color:black;
+  margin-top: 10px;
+  margin-right: 10px;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.beerdiscrebsion .beerItem, h2{
+  text-align: center;
+  align-self: center;
+}
+.pagenation{
+  background-color: rgba(244, 243, 238, 0.95);
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+.pagenation a{
+  padding: 10px;
+  background-color: white;
+  border: solid 2px #cecaca;
+  border-radius: 10px ;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  color: #171D1C;
+
+}
+.pagenation a:hover{
+  background-color: rgb(146, 90, 7);
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+.pagenation .unactive{
+  padding: 10px;
+  background-color: rgb(155, 151, 151);
+  border: solid 2px #cecaca;
+  border-radius: 10px ;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  color: #5f6665;
+}
+.prevPagenone{
+  display: none;
+}
+.pagenation .unactive:hover{
+  color: #5f6665;
+  background-color: rgb(155, 151, 151);
+}
+header h1{
+  margin-left: 50px;
+}
+.resultcount{
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 10px;
+  font-size: 30px;
+  background-color:darkred;
+  color: #F4F3EE;
+  padding-left: 40px;
+}
+#brewdog-icon {
+  height: 50px;
+  width: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 65px;
+  margin: 0;
+  top: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.beers{
+  padding: 5px;
+  -webkit-padding-start: 0px;
+}
+
+.beer-list {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+strong{
+  color: rgb(71, 71, 226);
+}
+.beerItem {
+  background-color: #ffffff;
+  border: 1px solid #F5F4EF;
+  border-bottom: 2px solid #f1f1f1;
+  list-style-type: none;
+  height: auto;
+  width: 175px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.beerImage {
+  height: auto;
+  width: 60px;
+}
+
+.beerName {
+  font-family: 'Bungee', cursive;
+  font-weight: 900;
+}
+
+.beerMalt, .beerHop, .beerYeast {
+  font-size: 12px;
+  font-style: italic;
+  text-align: left;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 40px;
+}
