@@ -79,12 +79,25 @@ footer h2{
   text-align: center;
   align-self: center;
 }
+.refresh{
+  font-size: 17.5px;
+}
 .randomTitle{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 50px;
   border-bottom: solid 2px  #dbd9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+.randomTitle a:hover, .randomTitle a:visited, .randomTitle a:active, .randomTitle a:link{
+  color: #3b3d49;
+  text-decoration: none;
+}
+ .randomTitle a:hover{
+  text-decoration: none;
+  color: #57420a;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
 }
 .pagenation{
   background-color: rgba(244, 243, 238, 0.95);

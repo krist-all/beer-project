@@ -130,13 +130,14 @@ const prevPagevalu =document.getElementById("prevPage");
 
 
 }else if(isPage == true && page!="") {
+    mainElement.innerHTML="<div class='randomTitle'><a href='index.html'>Random Beers </a><span class='refresh'> Click Random Beers to see another Random beers</span></div>";
     const api = 'https://api.punkapi.com/v2/beers?per_page=12&page='+page;
     nextPagevalu.setAttribute('href', '?page='+nextPage);
     prevPagevalu.setAttribute('href', '?page='+prevPage);
     getData(api, render);
 } 
 else {
-    mainElement.innerHTML="<h1 class='randomTitle'>Random Beers</div>";
+    mainElement.innerHTML="<div class='randomTitle'><a href='index.html'>Random Beers </a><span class='refresh'> Click Random Beers to see another Random beers</span></div>";
     const randomPage = Math.floor((Math.random() * 15) + 1);
     const api = 'https://api.punkapi.com/v2/beers?per_page=12&page='+randomPage;
     nextPagevalu.setAttribute('href', '?page='+nextPage);
