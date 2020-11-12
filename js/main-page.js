@@ -136,7 +136,9 @@ const prevPagevalu =document.getElementById("prevPage");
     getData(api, render);
 } 
 else {
-    const api = 'https://api.punkapi.com/v2/beers?per_page=12&page=1';
+    mainElement.innerHTML="<h1 class='randomTitle'>Random Beers</div>";
+    const randomPage = Math.floor((Math.random() * 15) + 1);
+    const api = 'https://api.punkapi.com/v2/beers?per_page=12&page='+randomPage;
     nextPagevalu.setAttribute('href', '?page='+nextPage);
     prevPagevalu.setAttribute('href', '?page='+prevPage);
     getData(api, render);

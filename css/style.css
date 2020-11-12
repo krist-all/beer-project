@@ -6,7 +6,7 @@ body {
   background-image: url("../img/melt-bar-restaurang-3.jpg");
   color: #171D1C;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -61,7 +61,6 @@ footer{
 }
 footer h2{
   font-family: 'Bungee', cursive;
-
   margin-left: 20px;
   text-align: left;
   color: white;
@@ -79,6 +78,13 @@ footer h2{
 .beerdiscrebsion .beerItem, h2{
   text-align: center;
   align-self: center;
+}
+.randomTitle{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  border-bottom: solid 2px  #dbd9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 .pagenation{
   background-color: rgba(244, 243, 238, 0.95);
@@ -127,7 +133,7 @@ header h1{
   margin-left: 50px;
 }
 .resultcount{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   padding: 10px;
   font-size: 30px;
