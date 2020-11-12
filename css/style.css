@@ -21,17 +21,36 @@ input{
   font-size: 22px;
   margin: 10px;
 }
+#BBBF{
+  display: none;
+}
+#abvNumber{
+  display: none;
+}
+#BBBF input{
+  font-size: 16px;
+  width: 150px;
+}
+#abvNumber input{
+  width: 100px;
+}
 main{
   max-width: 1100px;
   margin: auto;
   background-color:  rgba(244, 243, 238);
 
 }
-header{
+
+header, header a,header a:hover,header a:visited,header a:active,header a:link,
+footer a,footer a:hover,footer a:visited,footer a:active,footer a:link {
   background-color:  #424141;
   max-width: 1100px;
   margin: auto;
   color: #f1f1f1;
+  text-decoration: none;
+}
+header a:hover, footer a:hover{
+  color: #f7fcda;
 }
 footer{
   max-width: 1100px;
@@ -68,7 +87,7 @@ footer h2{
   text-align: center;
   padding: 15px 0 15px 0;
 }
-.pagenation a{
+.pagenation a, a.seeMore{
   padding: 10px;
   background-color: white;
   border: solid 2px #cecaca;
@@ -78,12 +97,15 @@ footer h2{
   color: #171D1C;
 
 }
+a.seeMore:hover{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-color: darkcyan;
+
+}
 .pagenation a:hover{
   background-color: rgb(146, 90, 7);
   color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-
-
 }
 .pagenation .unactive{
   padding: 10px;
@@ -112,6 +134,7 @@ header h1{
   background-color:darkred;
   color: #F4F3EE;
   padding-left: 40px;
+  text-align: center;
 }
 #brewdog-icon {
   height: 50px;

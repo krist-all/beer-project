@@ -9,25 +9,41 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <script src="js/main-page.js" defer></script>
-    <title>Form</title>
+    <title>BEER Project</title>
+
 </head>
 
 <body>
     <header>
-        <h1>PUNK API</h1>
+        <h1><a href="?">BEER Project</a></h1>
         <form method="GET">
             <input type="hidden" id="per_page" name="per_page" value="12">
             <input type="hidden" id="page" name="page" value="1">
-            <select name="search_by"  class="dropbtn" id="search_by">
-                <option value="">Search beer by: </option>
+            <select name="search_by"  class="dropbtn" id="search_by" onchange="showDiv(this)">
+                <option value="SearchBY">Search beer by: </option>
                 <option value="beer_name" >Beer name</option>
                 <option value="hops">Hops</option>                                   
                 <option value="malt">Malt</option>                                   
-                <option value="beer_name">Brewed Before</option>                                   
-                <option value="abv_gt">ABV Greater Than</option>                                   
+                <option value="brewed">Brewed Before & after</option>                                   
+                <option value="abv">ABV </option>                                   
             </select>
+            <div class="nativeDatePicker" id="BBBF">
+                <label for="month-visit"> Before</label>
+                <input type="month" id="month-visitB" name="">
+                <span class="validity"></span>
+                <label for="month-visit"> After</label>
+                <input type="month" id="month-visitA" name="">
+                <span class="validity"></span>
+              </div>
+              <div class="abvNumber" id="abvNumber">
+                <label for="month-visit"> Greater Than</label>
+                <input type="number" id="myNumber1" name="">
+                <span class="validity"></span>
+                <label for="month-visit"> Less Than</label>
+                <input type="number" id="myNumber2" name="">
+                <span class="validity"></span>
+              </div>
             <input type="text" name="search_value" id="search_value" value="">
-
 
             <input type="submit" value="Search" title="" id="submit">
                 </form>
@@ -47,7 +63,7 @@
         <a href="" id="nextPage" class="">Next</a>         
     </div>
 
-    <footer><h2>PUNK API</h2></footer>
+    <footer> <h2><a href="?">Beer Project</a></h2></footer>
 </body>
 
 </html>
